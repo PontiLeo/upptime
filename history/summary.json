@@ -1,7 +1,7 @@
 [
   {
     "name": "NetaMx Site",
-    "url": "http://18.116.153.81:5050/",
+    "url": "http://18.116.153.81:5050",
     "icon": "https://favicons.githubusercontent.com/18.116.153.81",
     "slug": "neta-mx-site",
     "status": "up",
@@ -38,7 +38,7 @@
     }
   },
   {
-    "name": "Api ops Prods",
+    "name": "Api ops",
     "url": "https://api-ops-prod.neta.mx:3013",
     "icon": "https://favicons.githubusercontent.com/api-ops-prod.neta.mx",
     "slug": "api-ops-prods",
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 117,
-    "timeDay": 117,
-    "timeWeek": 117,
-    "timeMonth": 117,
-    "timeYear": 117,
+    "time": 103,
+    "timeDay": 103,
+    "timeWeek": 103,
+    "timeMonth": 103,
+    "timeYear": 103,
     "dailyMinutesDown": {}
   }
 ]

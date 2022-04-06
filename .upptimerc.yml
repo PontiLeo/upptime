@@ -4,7 +4,7 @@ repo: "upptime"
 
 sites:
   - name: "NetaMx Site"
-    url: "http://18.116.153.81:5050/"
+    url: "http://18.116.153.81:5050"
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
@@ -14,7 +14,7 @@ sites:
     expectedStatusCodes:
       - 200
       - 403
-  - name: "Api ops Prods"
+  - name: "Api ops"
     url: "https://api-ops-prod.neta.mx:3013"
     maxResponseTime: 2000
     expectedStatusCodes:
@@ -40,7 +40,7 @@ status-website:
     - title: "GitHub"
       href: "https://github.com/$OWNER/$REPO"
     - title: "Acerca de  Nosotros"
-      href: "https://neta.mx/"
+      href: "http://18.116.153.81:5050"
   metaTags:
     - name: "color-scheme"
       content: "light"
