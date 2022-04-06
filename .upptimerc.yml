@@ -1,4 +1,4 @@
-# Change these first
+---
 owner: NetaMx
 repo: upptime
 
@@ -10,11 +10,12 @@ sites:
       - 200
 
 status-website:
-  baseUrl: /upptime
+  cname: "https://netamx.github.io/upptime/"
   logoUrl: https://raw.githubusercontent.com/NetaMx/upptime/master/assets/Logo_Neta_Close.png
   name: NetaMX Upptime
   introTitle: "**NetaMx** *Insurance, the new way!* - Uptime monitor and status page, powered entirely by [Upptime](https://upptime.js.org/) and [GitHub Pages](https://pages.github.com/)."
   introMessage: "This is the **NetaMx** status page which uses **real-time** data from our [GitHub repository](https://github.com/NetaMx/upptime)."
+  theme: "light"
   navbar:
     - title: "Status"
       href: "/"
@@ -36,3 +37,5 @@ workflowSchedule:
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
   uptime: "*/5 * * * *"
+
+user-agent: "astro-debot"
