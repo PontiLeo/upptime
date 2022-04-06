@@ -1,6 +1,6 @@
 ---
-owner: NetaMx
-repo: upptime
+owner: "NetaMx"
+repo: "upptime"
 
 sites:
   - name: "NetaMx Site"
@@ -8,11 +8,29 @@ sites:
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
+  - name: "API Gateway"
+    url: "https://xkxzvljbtd.execute-api.us-east-2.amazonaws.com"
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "Api ops Prods"
+    url: "https://api-ops-prod.neta.mx:3013"
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+      - 503
+      - 502
+
+assignees:
+  - "adrianhorizon"
 
 status-website:
-  cname: "https://netamx.github.io/upptime/"
-  logoUrl: https://raw.githubusercontent.com/NetaMx/upptime/master/assets/Logo_Neta_Close.png
-  name: NetaMX Upptime
+  cname: "status.ops.neta.mx"
+  logoUrl: "https://raw.githubusercontent.com/NetaMx/upptime/master/assets/Logo_Neta_Close.png"
+  favicon: "https://raw.githubusercontent.com/NetaMx/upptime/master/assets/Logo_Neta_Close.png"
+  name: ""
   introTitle: "**NetaMx** *Insurance, the new way!* - Uptime monitor and status page, powered entirely by [Upptime](https://upptime.js.org/) and [GitHub Pages](https://pages.github.com/)."
   introMessage: "This is the **NetaMx** status page which uses **real-time** data from our [GitHub repository](https://github.com/NetaMx/upptime)."
   theme: "light"
@@ -38,4 +56,4 @@ workflowSchedule:
   updates: "0 3 * * *"
   uptime: "*/5 * * * *"
 
-user-agent: "astro-debot"
+user-agent: "adrianhorizon"
