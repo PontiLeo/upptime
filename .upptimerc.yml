@@ -40,7 +40,7 @@ status-website:
     - title: "GitHub"
       href: "https://github.com/$OWNER/$REPO"
     - title: "Acerca de  Nosotros"
-      href: "http://18.116.153.81:5050"
+      href: "https://neta.mx"
   metaTags:
     - name: "color-scheme"
       content: "light"
