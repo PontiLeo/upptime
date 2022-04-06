@@ -4,7 +4,7 @@ repo: "upptime"
 
 sites:
   - name: "NetaMx Site"
-    url: "https://neta.mx/"
+    url: "http://18.116.153.81:5050/"
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
@@ -31,15 +31,15 @@ status-website:
   logoUrl: "https://raw.githubusercontent.com/NetaMx/upptime/master/assets/Logo_Neta_Close.png"
   favicon: "https://raw.githubusercontent.com/NetaMx/upptime/master/assets/Logo_Neta_Close.png"
   name: ""
-  introTitle: "**NetaMx** *Insurance, the new way!* - Uptime monitor and status page, powered entirely by [Upptime](https://upptime.js.org/) and [GitHub Pages](https://pages.github.com/)."
-  introMessage: "This is the **NetaMx** status page which uses **real-time** data from our [GitHub repository](https://github.com/NetaMx/upptime)."
+  introTitle: "**NetaMx** Estado de Servicios"
+  introMessage: "Esta es la pagina de estado de servicios en tiempo real para **NetaMx** "
   theme: "light"
   navbar:
     - title: "Status"
       href: "/"
     - title: "GitHub"
       href: "https://github.com/$OWNER/$REPO"
-    - title: "About Us"
+    - title: "Acerca de  Nosotros"
       href: "https://neta.mx/"
   metaTags:
     - name: "color-scheme"
