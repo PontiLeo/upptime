@@ -1,4 +1,4 @@
-url: https://api-ops-prod.neta.mx:3013
+url: $API_OPS
 status: up
 code: 200
 responseTime: 118
