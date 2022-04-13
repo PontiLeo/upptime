@@ -24,32 +24,32 @@ sites:
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
-   - name: "Facturacion"
+  - name: "Facturacion"
     url: $SECRET_SITE_OPS_INVOICE
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
-   - name: "Reportes"
+  - name: "Reportes"
     url: $SECRET_SITE_OPS_PDFGERATOR
     maxResponseTime: 2000
     expectedStatusCodes:
       - 404
-    - name: "Entregas"
+  - name: "Entregas"
     url: $SECRET_SITE_OPS_DELIVERY
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
-    - name: "Ordenes"
+  - name: "Ordenes"
     url: $SECRET_SITE_OPS_ORDER
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
-    - name: "Ordenes V2"
+  - name: "Ordenes V2"
     url: $SECRET_SITE_RENGOKU
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
-    - name: "Gestion de Tiendas"
+  - name: "Gestion de Tiendas"
     url: $SECRET_SITE_OPS_STORE
     maxResponseTime: 2000
     expectedStatusCodes:
