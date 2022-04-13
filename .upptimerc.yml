@@ -37,10 +37,6 @@ status-website:
   navbar:
     - title: "Status"
       href: "/"
-    - title: "GitHub"
-      href: "https://github.com/$OWNER/$REPO"
-    - title: "Acerca de  Nosotros"
-      href: "https://neta.mx"
   metaTags:
     - name: "color-scheme"
       content: "light"
