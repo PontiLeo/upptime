@@ -8,23 +8,21 @@ sites:
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
-  - name: "API Gateway"
-    url: "https://xkxzvljbtd.execute-api.us-east-2.amazonaws.com"
+  - name: "Mi Tienda"
+    url: $SECRET_SITE_MITIENDA
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
       - 403
-  - name: "Api ops"
-    url: "https://api-ops-prod.neta.mx:3013"
+  - name: "Data Analitycs"
+    url: $SECRET_SITE_REDASH
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
-      - 403
-      - 503
-      - 502
 
 assignees:
   - "adrianhorizon"
+  - "yisusvii"
 
 status-website:
   cname: "status.ops.neta.mx"
