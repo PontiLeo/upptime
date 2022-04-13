@@ -29,11 +29,6 @@ sites:
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
-  - name: "Reportes"
-    url: $SECRET_SITE_OPS_PDFGERATOR
-    maxResponseTime: 2000
-    expectedStatusCodes:
-      - 404
   - name: "Entregas"
     url: $SECRET_SITE_OPS_DELIVERY
     maxResponseTime: 2000
